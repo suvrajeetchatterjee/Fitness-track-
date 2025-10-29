@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href=🔥 Solo Leveling: Acheive the S Rank 🔥"styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="glow-text"> Solo Leveling:        acheive the S rank</h1>
+
+        <!-- User Input Section -->
+        <div class="input-section">
+            <h2>🛡 Enter Your Stats</h2>
+            <label>Age: <input type="number" id="age"></label>
+            <label>Height (cm): <input type="number" id="height"></label>
+            <label>Weight (kg): <input type="number" id="weight"></label>
+            <label>Gender: 
+                <select id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </label>
+            <button id="startTraining">Begin Awakening</button>
+        </div>
+
+        <!-- Rank Output -->
+        <div id="rank-section"></div>
+
+        <!-- Workout & Diet Plan -->
+        <div id="plan-section"></div>
+
+        <!-- Progress Bar Section -->
+        <div class="progress-container">
+            <h2>🏋️‍♂️ Rank Progress</h2>
+            <p>Complete daily training to level up!</p>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill">0%</div>
+            </div>
+            <button id="completeWorkout">✔ Complete Daily Quest</button>
+            <p id="progressText">Progress: 0 / ?? days</p>
+        </div>
+
+        <!-- Lookmaxing Analysis -->
+        <div class="lookmaxing-section">
+            <h2>🌀 Lookmaxing: Unlock Your Peak Form</h2>
+            <input type="file" id="photo-upload" accept="image/*">
+            <button id="analyzeLookmaxing">Analyze</button>
+            <div id="lookmaxing-output"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
