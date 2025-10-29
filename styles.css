@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+    background: black; /* Solid black background */
+    background-image: url('https://media-hosting.imagekit.io/9b9c88198f4e49d7/wp8170262-solo-leveling-pc-wallpapers.png?Expires=1836931792&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=WhB0CsOUrNtg2D9SkCn9RoQpnQUNmfEaAJsbfu-AsjpPvrRkuoyJh5OojBDtnNi2qHdtDn8CJEqvNnnUV-RPr5RiJ7grcPe68V2bMIWDUhSaNTnlphF05cbDpDUs-eEVHuGS4GyjzbFU9fGfWfnRCATUWZpKn3TkO7oQbkY9hCmuU2QNC6sf9g4FujaXG6DTvSu-jyMMqSMtXUpgwwU80rx-ufGGk4Bx7YlCsGbqA5oRbby~1Zzc2mK1neF35Rl81Zv-sAKgUGsJFN8l0DClfi~3SoOz59DxppreREhBU63CVsCt-0QTaYbRR7XCua27vD4i6vvhfhRfCIMpSjsiew__');
+    background-size: contain; /* Keeps the Solo Leveling image visible */
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Orbitron', sans-serif;
+    color: #00aaff; /* Blue glow effect */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #0077ff;
+}
+
+h1, h2 {
+    text-shadow: 0 0 10px #00aaff, 0 0 20px #0077ff;
+}
+
+input, select {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    background: black;
+    color: white;
+    border: 1px solid #00aaff;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    background: linear-gradient(45deg, #0033cc, #00aaff);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+    text-shadow: 0px 0px 10px #00aaff;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #0055ff, #00ddff);
+    box-shadow: 0px 0px 10px #00aaff;
+}
+
+.progress-container {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.progress-bar {
+    width: 0%;
+    height: 20px;
+    background: linear-gradient(45deg, #0033cc, #00aaff);
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    transition: width 0.5s ease-in-out;
+    box-shadow: 0px 0px 10px #00aaff;
+}
+
+#lookmaxing-output img {
+    border: 2px solid #00aaff;
+    box-shadow: 0px 0px 15px #0077ff;
+}
